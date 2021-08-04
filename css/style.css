@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.submit_area {
+    box-shadow: 5px 5px 10px #808080;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.submit_area .content {
+    padding: 3rem 3.5rem;
+}
+
+.content input {
+    width: 90%;
+    display: block;
+    margin:  1rem 0;
+    padding: .3rem;
+    padding-left: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd
+}
+
+#transaction_area {
+    margin-bottom: 4rem;
+}
+
+.card_group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+.card_ {
+    width: 25%;
+}
+
+.card_body {
+    width: 100%;
+    background-color: lightcoral;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 0 10px 25px;
+}
+
+.card_body h3 {
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 1rem;
+}
+
+.card_body h1 {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 56px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card_:first-of-type .card_body{
+    background-color: indigo;
+}
+
+.card_:last-of-type .card_body {
+    background-color: orange;
+}
+
+
+
+.deposit_area {
+    box-shadow: 5px 5px 10px #808080;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    width: 90%;
+    margin-right: 2rem;
+}
+
+.deposit_area .content {
+    padding: 3rem 3.5rem;
+}
+
+.withdraw_area {
+    box-shadow: 5px 5px 10px #808080;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.withdraw_area .content {
+    padding: 3rem 3.5rem;
+    width: 90%;
+}
+
+
+.dewra_area {
+    display: flex;
+}
+
+.dewra_area .content {
+    width: 100%;
+}
+
+#hidden_area {
+    display: none;
+}
